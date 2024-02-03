@@ -66,7 +66,7 @@ header{
 }
 
 .iconDiv{
-    background-color: #0D0D0D;
+    background-color: #18130e;
     min-width: 74rem;
     margin: 0rem;
     padding-bottom:3rem ;
@@ -86,7 +86,7 @@ header{
 }
 
 .iconDiv ~ div{
-    background-color: #0D0D0D;
+    background-color: #291a10;
     color:white;
     display: flex;
     padding: 1rem;
@@ -97,6 +97,7 @@ header{
 
 .iconDiv ~ div > div{
     margin-left:2rem;
+    background-color: #291a10;
 }
 
 .iconDiv ~ div > div > h2 {
