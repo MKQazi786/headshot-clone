@@ -8,6 +8,10 @@ import tinder from "./image/tinder.png";
 import linkedin from "./image/linkedin.png";
 import tiktok from "./image/tiktok.png";
 import headShotPic from "./image/headshot of men.png";
+import icon1 from "./image/content img cam.png";
+import icon2 from "./image/content img download pic.png";
+import icon3 from "./image/content img AI.png";
+import mmp from "./image/many men pics.png";
 
 function App() {
     return (
@@ -47,7 +51,6 @@ function App() {
             </div>
 
             <div>
-
                 <img width={500} src={headShotPic} alt="" />
 
                 <div>
@@ -64,9 +67,68 @@ function App() {
 
                     <button>create yours now</button>
                 </div>
-
-
             </div>
+
+            <div className="content">
+                <div>
+
+                <div>
+                    <p>Why choose us?</p>
+                    <p1>
+                        Craft top-tier professional portraits to suit all your needs,
+                        from a polished business headshot to compelling content marketing
+                        and even impressive offline collateral.
+                    </p1>
+                </div>
+
+                <icon1 className="icon-1"  >
+                    <img src={icon1} alt="" />
+                    <div >
+                        <h3>No more photoshoots </h3>
+                        <p>
+                            Save on expensive photographers. Explore our hyper-realistic AI
+                            photos and elevate your visuals.
+                        </p>
+                    </div>
+                </icon1>
+
+                <icon2 className="icon-1">
+
+                    <img src={icon2} alt="" />
+                    <div>
+
+                        <h3>Download your photo's</h3>
+                        <p>
+                            Handpick and download favorites from your private album.
+                        </p>
+                    </div>
+                </icon2>
+
+                <icon3 className="icon-1" >
+
+                    <img src={icon3} alt="" />
+                    <div>
+
+                        <h3> The best AI results in seconds</h3>
+                        <p>
+                            Custom AI model created just for you based on your uploaded images.
+                        </p>
+                    </div>
+                </icon3>
+                </div>
+
+                <div>
+                    <img width={450} src={mmp} alt="" />
+                </div>
+            </div>
+
+
+
+
+
+
+
+
 
         </div >
     )

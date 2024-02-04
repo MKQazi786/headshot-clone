@@ -6,6 +6,8 @@ body{
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
+    /* overflow-y:hidden ; */
+    overflow-x:hidden ;
 }
 
 header{
@@ -82,10 +84,10 @@ header{
 .text-icon{
     display: flex;
     gap: 7rem;
-    padding: 0,5rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
-.iconDiv ~ div{
+.iconDiv + div{
     background-color: #291a10;
     color:white;
     display: flex;
@@ -95,18 +97,37 @@ header{
     min-width: 72rem;
 }
 
-.iconDiv ~ div > div{
+.iconDiv + div > div{
     margin-left:2rem;
     background-color: #291a10;
 }
 
-.iconDiv ~ div > div > h2 {
+.iconDiv + div > div > h2 {
     font-size: xx-large;
     font-weight:900;
 }
 
-.iconDiv ~ div > div > p {
+.iconDiv + div > div > p {
     font-size:small;
     font-weight: 100;
+}
+
+.content{
+    min-width: 73rem;
+    background-color:#291a10;
+    color: white;
+    margin: -1.5rem 0rem ;
+    padding:0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.content > div > div  p {
+    font-size: xx-large;
+}
+
+.icon-1{
+    display: flex;
+    gap: 1rem;
 }
 
