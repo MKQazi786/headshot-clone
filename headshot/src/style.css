@@ -4,7 +4,7 @@ body{
     margin: 0rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     /* align-items: center; */
     /* overflow-y:hidden ; */
     overflow-x:hidden ;
@@ -88,7 +88,8 @@ header{
 }
 
 .iconDiv + div{
-    background-color: #291a10;
+    /* background-color: #291a10; */
+    background: linear-gradient(98.24deg,#0c1b22   0%,#291a10 100%);
     color:white;
     display: flex;
     padding: 1rem;
@@ -99,7 +100,6 @@ header{
 
 .iconDiv + div > div{
     margin-left:2rem;
-    background-color: #291a10;
 }
 
 .iconDiv + div > div > h2 {
@@ -114,12 +114,13 @@ header{
 
 .content{
     min-width: 73rem;
-    background-color:#291a10;
+    background: linear-gradient(98.24deg, #291a10  0%,#0c1b22 100%);
     color: white;
     margin: -1.5rem 0rem ;
     padding:0.5rem;
     display: flex;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .content > div > div  p {
@@ -129,5 +130,37 @@ header{
 .icon-1{
     display: flex;
     gap: 1rem;
+}
+
+.hiwDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    min-width: 74rem;
+    background: linear-gradient(98.24deg, #0D0D0D  0%,#0c1b22 100%);
+    color: white;
+}
+
+.hiwDiv > div > p{
+    font-size: xx-large;
+    margin: 0.5rem;
+}
+
+.worksImage{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.worksImage img {
+    margin-top: 2rem;
+    justify-content:space-between;
+    width: 15rem;
+    display: flex;
 }
 

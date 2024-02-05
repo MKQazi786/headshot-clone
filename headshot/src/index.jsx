@@ -12,6 +12,10 @@ import icon1 from "./image/content img cam.png";
 import icon2 from "./image/content img download pic.png";
 import icon3 from "./image/content img AI.png";
 import mmp from "./image/many men pics.png";
+import hiw1 from "./image/how it works 1.png";
+import hiw2 from "./image/how it works 2.png";
+import hiw3 from "./image/how it works 3.png";
+
 
 function App() {
     return (
@@ -72,54 +76,71 @@ function App() {
             <div className="content">
                 <div>
 
-                <div>
-                    <p>Why choose us?</p>
-                    <p1>
-                        Craft top-tier professional portraits to suit all your needs,
-                        from a polished business headshot to compelling content marketing
-                        and even impressive offline collateral.
-                    </p1>
-                </div>
-
-                <icon1 className="icon-1"  >
-                    <img src={icon1} alt="" />
-                    <div >
-                        <h3>No more photoshoots </h3>
-                        <p>
-                            Save on expensive photographers. Explore our hyper-realistic AI
-                            photos and elevate your visuals.
-                        </p>
-                    </div>
-                </icon1>
-
-                <icon2 className="icon-1">
-
-                    <img src={icon2} alt="" />
                     <div>
-
-                        <h3>Download your photo's</h3>
-                        <p>
-                            Handpick and download favorites from your private album.
-                        </p>
+                        <p>Why choose us?</p>
+                        <p1>
+                            Craft top-tier professional portraits to suit all your needs,
+                            from a polished business headshot to compelling content marketing
+                            and even impressive offline collateral.
+                        </p1>
                     </div>
-                </icon2>
 
-                <icon3 className="icon-1" >
+                    <icon1 className="icon-1"  >
+                        <img src={icon1} alt="" />
+                        <div >
+                            <h3>No more photoshoots </h3>
+                            <p>
+                                Save on expensive photographers. Explore our hyper-realistic AI
+                                photos and elevate your visuals.
+                            </p>
+                        </div>
+                    </icon1>
 
-                    <img src={icon3} alt="" />
-                    <div>
+                    <icon2 className="icon-1">
 
-                        <h3> The best AI results in seconds</h3>
-                        <p>
-                            Custom AI model created just for you based on your uploaded images.
-                        </p>
-                    </div>
-                </icon3>
+                        <img src={icon2} alt="" />
+                        <div>
+
+                            <h3>Download your photo's</h3>
+                            <p>
+                                Handpick and download favorites from your private album.
+                            </p>
+                        </div>
+                    </icon2>
+
+                    <icon3 className="icon-1" >
+
+                        <img src={icon3} alt="" />
+                        <div>
+
+                            <h3> The best AI results in seconds</h3>
+                            <p>
+                                Custom AI model created just for you based on your uploaded images.
+                            </p>
+                        </div>
+                    </icon3>
                 </div>
 
                 <div>
                     <img width={450} src={mmp} alt="" />
                 </div>
+            </div>
+
+            <div className="hiwDiv">
+                <div>
+                <p>How it works</p>
+                    <b>
+                        Capture professional hyper-realistic portrait photos, ideal for your
+                        LinkedIn or other socials, marketing, or simply for private use.
+                    </b>
+                </div>
+
+                <div className="worksImage">
+                    <img src={hiw1} alt="" />
+                    <img src={hiw2} alt="" />
+                    <img src={hiw3} alt="" />
+                </div>
+
             </div>
 
 
