@@ -15,6 +15,11 @@ import mmp from "./image/many men pics.png";
 import hiw1 from "./image/how it works 1.png";
 import hiw2 from "./image/how it works 2.png";
 import hiw3 from "./image/how it works 3.png";
+import Qicon from "./image/quatation icon.png";
+import profile1 from "./image/profile review 1.png";
+import profile2 from "./image/Profile review 2.png";
+import profile3 from "./image/Profile review 3.png";
+import profile4 from "./image/khubaib1.png";
 
 
 function App() {
@@ -128,7 +133,7 @@ function App() {
 
             <div className="hiwDiv">
                 <div>
-                <p>How it works</p>
+                    <p>How it works</p>
                     <b>
                         Capture professional hyper-realistic portrait photos, ideal for your
                         LinkedIn or other socials, marketing, or simply for private use.
@@ -140,6 +145,77 @@ function App() {
                     <img src={hiw2} alt="" />
                     <img src={hiw3} alt="" />
                 </div>
+
+            </div>
+
+            <div className="reviewDiv">
+                <div>
+                    <p>
+                        Review and download your favorite <br /> headshots from a collection of 100+.
+                    </p>
+                    <b>
+                        Explore the impact of new headshots on people's lives.
+                    </b>
+                </div>
+
+                <div className="carousel" >
+                    <a href="#" class="previous round">&#8249;</a>
+                    <a href="#" class="next round">&#8250;</a>
+                </div>
+
+            </div>
+
+            <div className="profileContainer" >
+
+                <div className="profileDiv" >
+                    <p>Great plat form</p>
+
+                    <p><img src={Qicon} alt="" align="left" />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam
+                    </p>
+                    <hr />
+                    <img src={profile1} alt="" />
+                </div>
+
+                <div className="profileDiv" >
+                    <p>Great plat form</p>
+
+                    <p><img src={Qicon} alt="" align="left" />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam
+                    </p>
+                    <hr />
+                    <img src={profile2} alt="" />
+                </div>
+
+                <div className="profileDiv" >
+                    <p>Great plat form</p>
+
+                    <p><img src={Qicon} alt="" align="left" />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam
+                    </p>
+                    <hr />
+                    <img src={profile3} alt="" />
+                </div>
+
+                <div className="profileDiv" >
+                    <p>Great plat form</p>
+
+                    <p><img src={Qicon} alt="" align="left" />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam
+                    </p>
+                    <hr />
+                    <img src={profile4} alt="" width={100} align="left" />
+                    <p>Muhammad khubaib</p>
+                </div>
+
 
             </div>
 
