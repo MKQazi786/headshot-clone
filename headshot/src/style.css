@@ -150,7 +150,7 @@ button {
 }
 
 .hiwDiv>div>p,
-.reviewDiv>div>p {
+.reviewDiv>div>p{
     font-size: xx-large;
     margin: 0.5rem;
 }
@@ -221,6 +221,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     background: linear-gradient(98.24deg, #291a10 0%, #0c1b22 100%);
+    overflow-x:scroll;
 }
 
 .profileDiv{
@@ -230,4 +231,17 @@ a:hover {
     margin: 1rem;
     padding: 1rem;
     border-radius:1rem;
+}
+
+.pricingDiv{
+    background: linear-gradient(98.24deg, #0c1b22 0%, #291a10 100%);
+    color: white;
+    margin-top:-2rem;
+    padding-top: 2rem;
+}
+
+.pricingDiv>div>p{
+    font-size: xx-large;
+    margin: 0.5rem;
+    text-align: center;
 }

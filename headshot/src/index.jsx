@@ -215,7 +215,33 @@ function App() {
                     <img src={profile4} alt="" width={100} align="left" />
                     <p>Muhammad khubaib</p>
                 </div>
+            </div>
 
+            <div className="pricingDiv">
+                <div>
+                    <p>
+                        High-quality headshots, no premium price.
+                    </p>
+                    <b>
+                        Upgrade your LinkedIn presence,
+                        supercharge job applications, or elevate your company's website with our tailored headshot packages.
+                    </b>
+                </div>
+
+                
+                <div className="profileDiv" >
+                    <p>BASIC</p>
+                    <p>€15</p>
+                    <p>All features are included for the perfect headshot</p>
+                    <ul>
+                        <li>100 ultra-realistic headshots</li>
+                        <li>Unlimited styles</li>
+                        <li>512x640 px</li>
+                        <li>3 sec.turnaround time</li>
+                        <li>Non-refundable</li>
+                        <li>No human edits</li>
+                    </ul>
+                </div>
 
             </div>
 
