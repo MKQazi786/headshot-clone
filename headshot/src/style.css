@@ -179,7 +179,7 @@ button {
     padding-top: 1rem;
 }
 
-.reviewDiv a {
+.reviewDiv button {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
@@ -193,7 +193,7 @@ button {
     
 } 
 
-a:hover {
+button:hover {
     background-color: #ddd;
     color: black;
 }
@@ -201,9 +201,11 @@ a:hover {
 .previous {
     background-color: #f1f1f1;
     color: black;
+    border: 1px solid black;
 }
 
-.next {
+.next{
+    border: 1px solid black;
     background: linear-gradient(98.24deg, #FC4A1A 0%, #F7B733 100%);
     color: white;
 }
@@ -221,7 +223,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     background: linear-gradient(98.24deg, #291a10 0%, #0c1b22 100%);
-    overflow-x:scroll;
+    overflow-x:auto;
 }
 
 .profileDiv{

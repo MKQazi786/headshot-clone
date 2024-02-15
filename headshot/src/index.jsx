@@ -20,9 +20,23 @@ import profile1 from "./image/profile review 1.png";
 import profile2 from "./image/Profile review 2.png";
 import profile3 from "./image/Profile review 3.png";
 import profile4 from "./image/khubaib1.png";
+import { useRef } from "react";
+
 
 
 function App() {
+    const containerRef = useRef(null);
+    const before = () => {
+        if (containerRef.current) {
+            containerRef.current.scrollright -= 300;
+        }
+    }
+
+    const after = () => {
+        if (containerRef.current) {
+            containerRef.current.scroll += 300;
+        }
+    }
     return (
         <div>
             <header>
@@ -159,13 +173,13 @@ function App() {
                 </div>
 
                 <div className="carousel" >
-                    <a href="#" class="previous round">&#8249;</a>
-                    <a href="#" class="next round">&#8250;</a>
+                    <button onClick={before} class="previous round">&#8249;</button>
+                    <button onClick={after} class="next round">&#8250;</button>
                 </div>
 
             </div>
 
-            <div className="profileContainer" >
+            <div className="profileContainer" ref={containerRef} >
 
                 <div className="profileDiv" >
                     <p>Great plat form</p>
@@ -189,6 +203,42 @@ function App() {
                     </p>
                     <hr />
                     <img src={profile2} alt="" />
+                </div>
+
+                <div className="profileDiv" >
+                    <p>Great plat form</p>
+
+                    <p><img src={Qicon} alt="" align="left" />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam
+                    </p>
+                    <hr />
+                    <img src={profile2} alt="" />
+                </div>
+
+                <div className="profileDiv" >
+                    <p>Great plat form</p>
+
+                    <p><img src={Qicon} alt="" align="left" />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam
+                    </p>
+                    <hr />
+                    <img src={profile3} alt="" />
+                </div>
+
+                <div className="profileDiv" >
+                    <p>Great plat form</p>
+
+                    <p><img src={Qicon} alt="" align="left" />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam
+                    </p>
+                    <hr />
+                    <img src={profile3} alt="" />
                 </div>
 
                 <div className="profileDiv" >
@@ -228,7 +278,7 @@ function App() {
                     </b>
                 </div>
 
-                
+
                 <div className="profileDiv" >
                     <p>BASIC</p>
                     <p>€15</p>
