@@ -233,6 +233,7 @@ button:hover {
     margin: 1rem;
     padding: 1rem;
     border-radius:1rem;
+    border:1px solid white
 }
 
 .pricingDiv{
@@ -240,6 +241,7 @@ button:hover {
     color: white;
     margin-top:-2rem;
     padding-top: 2rem;
+    min-width: 74rem;
 }
 
 .pricingDiv>div>p{
@@ -247,3 +249,12 @@ button:hover {
     margin: 0.5rem;
     text-align: center;
 }
+
+.pricingDiv>div+div{
+    display: flex;
+}
+
+.pricingDiv ul {
+    list-style-image:url("image/check-circle.png");
+}
+ 

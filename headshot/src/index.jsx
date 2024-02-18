@@ -20,6 +20,7 @@ import profile1 from "./image/profile review 1.png";
 import profile2 from "./image/Profile review 2.png";
 import profile3 from "./image/Profile review 3.png";
 import profile4 from "./image/khubaib1.png";
+import falseImage from "./image/false.png";
 import { useRef } from "react";
 
 
@@ -28,15 +29,17 @@ function App() {
     const containerRef = useRef(null);
     const before = () => {
         if (containerRef.current) {
-            containerRef.current.scrollright -= 300;
+            containerRef.current.scrollLeft -= 200;
         }
     }
 
     const after = () => {
         if (containerRef.current) {
-            containerRef.current.scroll += 300;
+            containerRef.current.scrollLeft += 200;
         }
     }
+
+
     return (
         <div>
             <header>
@@ -226,44 +229,45 @@ function App() {
                         Ut enim ad minim veniam
                     </p>
                     <hr />
-                    <img src={profile3} alt="" />
-                </div>
-
-                <div className="profileDiv" >
-                    <p>Great plat form</p>
-
-                    <p><img src={Qicon} alt="" align="left" />
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam
-                    </p>
-                    <hr />
-                    <img src={profile3} alt="" />
-                </div>
-
-                <div className="profileDiv" >
-                    <p>Great plat form</p>
-
-                    <p><img src={Qicon} alt="" align="left" />
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam
-                    </p>
-                    <hr />
-                    <img src={profile3} alt="" />
-                </div>
-
-                <div className="profileDiv" >
-                    <p>Great plat form</p>
-
-                    <p><img src={Qicon} alt="" align="left" />
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam
-                    </p>
-                    <hr />
-                    <img src={profile4} alt="" width={100} align="left" />
+                    <img src={profile4} alt="" width={300} align="left" />
                     <p>Muhammad khubaib</p>
+                </div>
+
+                <div className="profileDiv" >
+                    <p>Great plat form</p>
+
+                    <p><img src={Qicon} alt="" align="left" />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam
+                    </p>
+                    <hr />
+                    <img src={profile3} alt="" />
+                </div>
+
+                <div className="profileDiv" >
+                    <p>Great plat form</p>
+
+                    <p><img src={Qicon} alt="" align="left" />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam
+                    </p>
+                    <hr />
+                    <img src={profile3} alt="" />
+                </div>
+
+
+                <div className="profileDiv" >
+                    <p>Great plat form</p>
+
+                    <p><img src={Qicon} alt="" align="left" />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam
+                    </p>
+                    <hr />
+                    <img src={profile3} alt="" />
                 </div>
             </div>
 
@@ -278,19 +282,52 @@ function App() {
                     </b>
                 </div>
 
+                <div>
 
-                <div className="profileDiv" >
-                    <p>BASIC</p>
-                    <p>€15</p>
-                    <p>All features are included for the perfect headshot</p>
-                    <ul>
-                        <li>100 ultra-realistic headshots</li>
-                        <li>Unlimited styles</li>
-                        <li>512x640 px</li>
-                        <li>3 sec.turnaround time</li>
-                        <li>Non-refundable</li>
-                        <li>No human edits</li>
-                    </ul>
+                    <div className="profileDiv" >
+                        <p>STARTER</p>
+                        <p>€15</p>
+                        <p>All features are included for the perfect headshot</p>
+                        <ul>
+                            <li>100 ultra-realistic headshots</li>
+                            <li>Unlimited styles</li>
+                            <li>512x640 px</li>
+                            <li>3 sec.turnaround time</li>
+                            <li>Non-refundable</li>
+                            <img src={falseImage} alt="" /> No human edits
+                        </ul>
+                        <button>Create Yours Now &rarr;	</button>
+                    </div>
+
+                    <div className="profileDiv" >
+                        <p>BASIC</p>
+                        <p>€20</p>
+                        <p>All features are included for the perfect headshot</p>
+                        <ul>
+                            <li>200 ultra-realistic headshots</li>
+                            <li>Unlimited styles</li>
+                            <li>640x640 px</li>
+                            <li>3 sec.turnaround time</li>
+                            <li>Non-refundable</li>
+                            <img src={falseImage} alt="" /> No human edits
+                        </ul>
+                        <button>Create Yours Now &rarr;	</button>
+                    </div>
+
+                    <div className="profileDiv" >
+                        <p>PREMIUM</p>
+                        <p>€30</p>
+                        <p>All features are included for the perfect headshot</p>
+                        <ul>
+                            <li>300 ultra-realistic headshots</li>
+                            <li>Unlimited styles</li>
+                            <li>640x640 px</li>
+                            <li>3 sec.turnaround time</li>
+                            <li>Non-refundable</li>
+                            <li> 2 human edits </li>
+                        </ul>
+                        <button>Create Yours Now &rarr;	 </button>
+                    </div>
                 </div>
 
             </div>
