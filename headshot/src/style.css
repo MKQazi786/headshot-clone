@@ -257,4 +257,54 @@ button:hover {
 .pricingDiv ul {
     list-style-image:url("image/check-circle.png");
 }
+
+.bottomOfPricingDiv{
+    margin: 3rem 7rem;
+    width: 60rem;
+}
  
+.questionDiv{
+    background: linear-gradient(98.24deg, #291a10 0%, #0c1b22 100%);
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    min-width: 74rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionDiv a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.questionDiv > p{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+
+.questionDiv > p + p{
+    font-size: large;
+    margin: 0rem;
+}
+
+.cardCard-body {
+    background: linear-gradient(98.24deg, #291a10 0%, #0c1b22 100%);
+    color: white;
+}
+
+.question1{
+    border: 1px solid orange;
+    border-radius: 1rem;
+    padding: 1rem ;
+    margin: 0.5rem 1rem;
+    width: 50rem;
+    font-size: larger;
+    
+}
+
+

@@ -21,6 +21,7 @@ import profile2 from "./image/Profile review 2.png";
 import profile3 from "./image/Profile review 3.png";
 import profile4 from "./image/khubaib1.png";
 import falseImage from "./image/false.png";
+import cta from "./image/CTA.png";
 import { useRef } from "react";
 
 
@@ -329,6 +330,124 @@ function App() {
                         <button>Create Yours Now &rarr;	 </button>
                     </div>
                 </div>
+                <a href="#"><img src={cta} alt="" className="bottomOfPricingDiv" /></a>
+            </div>
+
+            <div className="questionDiv" >
+                <p>Frequently asked questions</p>
+                <div className="question1" >
+                    <p class="d-inline-flex gap-1">
+                        <p> How are my photos handled after the training process?  </p>
+                        <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <span class="bi bi-chevron-down"></span>
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="cardCard-body">
+                            After the training process, we prioritize your privacy by promptly deleting all uploaded photos immediately.
+                        </div>
+                    </div>
+                </div>
+
+                <div className="question1" >
+                    <p class="d-inline-flex gap-1">
+                        <p> Who has ownership of the ai pictures? </p>
+                        <a data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <span class="bi bi-chevron-down"></span>
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample1">
+                        <div class="cardCard-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, laudantium ea aliquam totam recusandae repudiandae. Ratione odio cupiditate aperiam fugit dicta nemo? Corrupti cum qui quasi velit tempora dicta eos?
+                        </div>
+                    </div>
+                </div>
+
+                <div className="question1" >
+                    <p class="d-inline-flex gap-1">
+                        <p> What type of photos are suitable for upload?</p>
+                        <a data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <span class="bi bi-chevron-down"></span>
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample2">
+                        <div class="cardCard-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quos repellendus exercitationem voluptas in vel ipsum excepturi aliquid tenetur quisquam, officia mollitia fuga corrupti inventore illo expedita. Consectetur, omnis accusantium?
+                        </div>
+                    </div>
+                </div>
+
+                <div className="question1" >
+                    <p class="d-inline-flex gap-1">
+                        <p> Where exactly is my data stored?  </p>
+                        <a data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <span class="bi bi-chevron-down"></span>
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample3">
+                        <div class="cardCard-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tenetur asperiores iste eaque! Iusto illum sequi similique repellendus laudantium laborum quibusdam et temporibus, quam veritatis odit neque debitis, modi sed?
+                        </div>
+                    </div>
+                </div>
+
+                <div className="question1" >
+                    <p class="d-inline-flex gap-1">
+                        <p> Is it possible to obtain a refund?</p>
+                        <a data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <span class="bi bi-chevron-down"></span>
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample4">
+                        <div class="cardCard-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia molestiae vero ducimus doloribus incidunt porro perferendis iste consectetur nulla nostrum. Inventore eligendi sunt expedita minus aliquid saepe, molestiae at architecto.
+                        </div>
+                    </div>
+                </div>
+
+                <div className="question1" >
+                    <p class="d-inline-flex gap-1">
+                        <p> Is the payment process is secure? </p>
+                        <a data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <span class="bi bi-chevron-down"></span>
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample5">
+                        <div class="cardCard-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tenetur facere ut! Ipsa, ut repellendus? Ullam tempora natus reprehenderit quas ipsam perferendis, magni architecto sequi unde aperiam nesciunt, alias pariatur.
+                        </div>
+                    </div>
+                </div>
+
+                <div className="question1" >
+                    <p class="d-inline-flex gap-1">
+                        <p> Is it possible to receive an invoice?</p>
+                        <a data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <span class="bi bi-chevron-down"></span>
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample6">
+                        <div class="cardCard-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam magni incidunt explicabo quae odit aut ut minima reiciendis dolor quod. Enim omnis ipsa quod amet ea suscipit facere aperiam similique.
+                        </div>
+                    </div>
+                </div>
+
+                <div className="question1" >
+                    <p class="d-inline-flex gap-1">
+                        <p> What if the genrated photo is not perfectly resemble me? </p>
+                        <a data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <span class="bi bi-chevron-down"></span>
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample7">
+                        <div class="cardCard-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sequi molestiae reprehenderit distinctio, doloremque dolore, unde voluptates vel eius iure rerum a tempora laboriosam perspiciatis veniam placeat veritatis. Assumenda, eos!
+                        </div>
+                    </div>
+                </div>
+
+
 
             </div>
 
