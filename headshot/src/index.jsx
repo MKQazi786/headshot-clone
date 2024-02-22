@@ -44,7 +44,7 @@ function App() {
     return (
         <div>
             <header>
-                <nav className="mainNavBar" >
+                <nav className="mainNavBar" id="mainNavBar" >
                     <img src={Logo} alt="This is logo" />
                     <nav className="navbar">
                         <li><a href="">Home</a></li>
@@ -149,7 +149,7 @@ function App() {
                 </div>
             </div>
 
-            <div className="hiwDiv">
+            <div className="hiwDiv" id="hiwDiv" >
                 <div>
                     <p>How it works</p>
                     <b>
@@ -166,7 +166,7 @@ function App() {
 
             </div>
 
-            <div className="reviewDiv">
+            <div className="reviewDiv" id="reviewDiv">
                 <div>
                     <p>
                         Review and download your favorite <br /> headshots from a collection of 100+.
@@ -455,11 +455,47 @@ function App() {
                         create yours now
                     </b>
 
-                  <a href="#">  <button className="getHeadshotDivBtn" >create yours now</button> </a>
+                    <a href="#">  <button className="getHeadshotDivBtn" >create yours now</button> </a>
 
                 </div>
 
             </div>
+
+            <footer>
+                <div>
+
+                    <a href="#mainNavBar"><img src={Logo} alt="This is logo footer logo" /></a>
+
+                    <div>
+                        <p>Social</p>
+                        <a href="https://www.tiktok.com/en/"><p className="bi bi-tiktok" >Tiktok</p></a>
+                    </div>
+
+                    <div>
+                        <p>Quick links</p>
+                        <ul>
+                            <a href="#mainNavBar"> <li>Home</li></a>
+                            <a href="#reviewDiv"> <li>Reviews</li></a>
+                            <a href="#hiwDiv"> <li>How It Works</li></a>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p>Legal</p>
+                        <ul>
+                            <li>Terms & Condition</li>
+                            <li>Privacy policy</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div>
+                    <hr />
+                    &copy;2023 THENEXTPHOTO.COM All rights reserved.
+               </div>
+            </footer>
 
         </div >
     )
