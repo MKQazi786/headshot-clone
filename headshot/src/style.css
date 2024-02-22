@@ -262,7 +262,7 @@ button:hover {
     margin: 3rem 7rem;
     width: 60rem;
 }
- 
+
 .questionDiv{
     background: linear-gradient(98.24deg, #291a10 0%, #0c1b22 100%);
     text-align: center;
@@ -303,8 +303,29 @@ button:hover {
     padding: 1rem ;
     margin: 0.5rem 1rem;
     width: 50rem;
-    font-size: larger;
-    
+    font-size: larger;    
 }
 
+.getHeadshotDiv{
+    padding: 2.7rem;
+    margin: 3rem 7rem;
+    width: 60rem;
+    background: linear-gradient(98.24deg,#F7B733 0%, #FC4A1A 100%);
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.getHeadshotDiv > p {
+    font-size: xx-large;
+}
+
+.getHeadshotDiv .getHeadshotDivBtn{
+    margin-top: 2rem;
+    background:white;
+    text-transform: uppercase;
+    color: darkorange;
+    border: 1px solid white;
+    font-weight: bolder;
+}
 
