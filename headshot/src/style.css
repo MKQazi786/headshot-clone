@@ -12,7 +12,6 @@ body {
 
 header {
     width: 100%;
-    /* min-width: 62rem; */
 }
 
 b {
@@ -20,7 +19,7 @@ b {
 }
 
 .mainNavBar {
-    min-width: 73rem;
+    min-width: 74rem;
     padding: 0.5rem;
     display: flex;
     background: #0D0D0D;
@@ -100,7 +99,7 @@ button {
     padding: 1rem;
     align-items: center;
     justify-content: flex-start;
-    min-width: 72rem;
+    min-width: 74rem;
 }
 
 .iconDiv+div>div {
@@ -118,7 +117,7 @@ button {
 }
 
 .content {
-    min-width: 73rem;
+    min-width: 74rem;
     background: linear-gradient(98.24deg, #291a10 0%, #0c1b22 100%);
     color: white;
     margin: -1.5rem 0rem;
@@ -144,7 +143,7 @@ button {
     justify-content: center;
     text-align: center;
     padding: 1rem;
-    min-width: 72rem;
+    min-width: 74rem;
     background: linear-gradient(98.24deg, #0D0D0D 0%, #0c1b22 100%);
     color: white;
 }
@@ -334,10 +333,13 @@ footer > div {
     background: linear-gradient(98.24deg, #0c1b22 0%, #291a10 100%);
     padding: 4rem 1rem;
     color: white;
-    gap: 8rem;
+    /* gap: 6rem; */
+    justify-content: space-around;
+    min-width:74rem;
 }
 
 footer > div + div {
+    justify-content: center;
     text-align: center;
 }
 
@@ -354,4 +356,5 @@ footer a {
 footer ul {
     list-style: none;
 }
+
 
