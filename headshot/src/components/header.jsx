@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Logo from "../image/Logo.png";
 import { useNavigate } from 'react-router-dom'
 
@@ -27,6 +26,5 @@ const Header = () => {
         </header>
     )
 }
-ReactDOM.render(<Header />, document.querySelector('#root'))
 
 export default Header;

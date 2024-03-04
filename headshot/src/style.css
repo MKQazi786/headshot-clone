@@ -11,6 +11,7 @@ body {
 }
 
 header {
+    cursor: pointer;
     width: 100%;
 }
 
@@ -336,6 +337,7 @@ footer > div {
     /* gap: 6rem; */
     justify-content: space-around;
     min-width:74rem;
+    cursor: pointer;
 }
 
 footer > div + div {

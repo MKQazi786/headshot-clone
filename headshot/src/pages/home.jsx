@@ -452,6 +452,6 @@ function Home() {
     )
 }
 
-ReactDOM.render(<Home />, document.querySelector('#root'))
+// ReactDOM.render(<Home />, document.querySelector('#root'))
 
 export default Home

@@ -1,10 +1,12 @@
 import React from "react";
 import Logo from "../image/Logo.png";
-
+import { useNavigate } from 'react-router-dom'
 
 const Footer = () => {
-    return (
+    
+    const navigate = useNavigate();
 
+    return (
         <footer>
             <div>
 
@@ -18,7 +20,7 @@ const Footer = () => {
                 <div>
                     <p>Quick links</p>
                     <ul>
-                        <a href="#mainNavBar"> <li>Home</li></a>
+                    <li onClick={() => navigate("/")} >Home</li>
                         <a href="#reviewDiv"> <li>Reviews</li></a>
                         <a href="#hiwDiv"> <li>How It Works</li></a>
                     </ul>
