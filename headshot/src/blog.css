@@ -1,0 +1,81 @@
+.blogBody main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(98.24deg, #291a10 0%,  #0c1b22 100%);
+    color:white;
+    padding: 3rem;
+}
+
+.blogBody main p {
+    font-size: xx-large;
+}
+
+.blogBody main button{
+    margin-top:1rem ;
+}
+
+ .blogsDiv nav ,.blogsDiv li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: darkorange;
+    list-style: none;
+}
+
+.blogsDiv nav button {
+    margin-top: 2rem;
+    background: linear-gradient(98.24deg, #291a10 0%,  #0c1b22 100%);
+    text-transform: uppercase;
+    color: darkorange;
+    border: 1px solid darkorange;
+    font-weight: bolder;
+}
+
+.blogsDiv{
+    background: linear-gradient(98.24deg, #291a10 0%,  #0c1b22 100%);
+}
+
+.profile1{
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius:2rem;
+    width:23.6rem;
+    margin: 0.5rem;
+}
+
+.profile1:hover{
+    border: 2px solid darkorange;
+    cursor: cell;
+}
+.productBtn button:hover {
+    cursor: pointer;
+    color: darkorange;
+    border: 2px solid darkorange;
+}
+.productBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productBtn button {
+    margin: 1rem 0rem;
+    background: linear-gradient(98.24deg, #291a10 0%,  #0c1b22 100%);
+    text-transform: uppercase;
+    color:white;
+    border: 1px solid white;
+}
+
+.productBtn ~ p {
+    font-size: large;
+    margin-bottom: 0rem;
+}
+
+.blogsProfile{
+    display: flex;
+    flex-wrap: wrap;
+}

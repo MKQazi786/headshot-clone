@@ -5,12 +5,10 @@ import Blog from "./pages/blog.jsx"
 
 const App = () => {
     return (
-    
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/blog" element={<Blog />} />
-            </Routes>
-                
+            </Routes>            
     );
 };
 
