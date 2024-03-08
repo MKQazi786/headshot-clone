@@ -6,12 +6,18 @@ import BP3 from "../image/BlogsProfile3.png"
 import BP4 from "../image/BlogsProfile4.png"
 import BP5 from "../image/BlogsProfile5.png"
 import BP6 from "../image/BlogsProfile6.png"
-
-
-
+import { useNavigate } from "react-router-dom";
 
 
 const BlogsProfile = () => {
+
+    
+    const navigate = useNavigate()
+
+    let handleBlogNavigate = () => {
+        navigate("/blogsPerProfile")
+    }
+
     const BlogsProfieContent = [
         {
             id: 1,
@@ -46,7 +52,7 @@ const BlogsProfile = () => {
     ]
 
     return (
-        <div className="blogsProfile">
+        <div className="blogsProfile" onClick={handleBlogNavigate} >
             {
                 BlogsProfieContent.map((Blog) => (
                     <div className="profile1" key={Blog.id}>

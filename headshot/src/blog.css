@@ -16,7 +16,7 @@
     margin-top:1rem ;
 }
 
- .blogsDiv nav ,.blogsDiv li{
+ .blogsDiv nav ,.blogsDiv > li{
     display: flex;
     justify-content: space-between;
     align-items: center;
