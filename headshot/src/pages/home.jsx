@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { useRef } from "react";
-import "../style.css";
+import "../cssPages/style.css";
 import Header from "../components/header";
 import banner from "../image/Hero banner.png";
 import insta from "../image/instagram.png";

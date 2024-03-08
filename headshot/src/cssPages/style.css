@@ -8,6 +8,7 @@ body {
     /* align-items: center; */
     /* overflow-y:hidden ; */
     overflow-x: hidden;
+    width: 74rem;
 }
 
 header {
@@ -255,7 +256,7 @@ button:hover {
 }
 
 .pricingDiv ul {
-    list-style-image:url("image/check-circle.png");
+    list-style-image:url("../image/check-circle.png");
 }
 
 .bottomOfPricingDiv{

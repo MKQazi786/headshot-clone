@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../image/Logo.png";
 import { useNavigate } from 'react-router-dom'
-import "../style.css";
+import "../cssPages/style.css";
 
 
 const Header = () => {

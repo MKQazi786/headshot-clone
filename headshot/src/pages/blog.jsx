@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import "../blog.css"
+import "../cssPages/blog.css"
 import BlogsProfile from "../components/blogsProfile";
 
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "../blog.css"
+import "../cssPages/blog.css"
 import BP1 from "../image/BlogsProfile1.png"
 import BP2 from "../image/BlogsProfile2.png"
 import BP3 from "../image/BlogsProfile3.png"
