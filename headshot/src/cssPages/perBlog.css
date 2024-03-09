@@ -1,11 +1,11 @@
-main{
+.mainDiv{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 3rem;
     background: linear-gradient(98.24deg, #291a10 0%, #0c1b22 100%);
-
+    min-width: 74rem;
 }
 
 .medicalHeadShot {
@@ -43,7 +43,7 @@ main{
     border: 2px solid #FC4A1A;
 }
 
-main > p {
+main > .blogPara {
     color: white;
     font-weight: 100;
     padding: 5rem;
@@ -55,3 +55,19 @@ main > h5{
     margin: 1rem 5rem;
     margin-top: -3rem;
 }
+
+main > ol {
+    color: #FC4A1A;
+    align-self: self-start;
+    margin: 1rem 4rem;
+
+}
+
+main > h3{
+    color: white;
+    align-self:start ;
+    margin: 1rem 5rem;
+    margin-bottom: -3rem;
+}
+
+
