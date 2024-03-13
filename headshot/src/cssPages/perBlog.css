@@ -35,6 +35,7 @@
 
 #icon::before{
     padding: 0.4rem;
+    color: white;
 }
 
 .bootstrapIcons i:hover{
@@ -43,7 +44,7 @@
     border: 2px solid #FC4A1A;
 }
 
-main > .blogPara {
+main > p {
     color: white;
     font-weight: 100;
     padding: 5rem;
@@ -63,11 +64,36 @@ main > ol {
 
 }
 
-main > h3{
+main > .iCF{
     color: white;
     align-self:start ;
     margin: 1rem 5rem;
     margin-bottom: -3rem;
+    text-transform: capitalize;
 }
 
+h3{
+    color: white;
+    align-self:start ;
+    margin: -3rem 5rem;
+    margin-bottom: -3rem;
+    text-transform: capitalize;
+}
 
+i {
+    font-style: normal;
+    color: #FC4A1A;
+}
+
+.divRB{
+    text-align: center;
+    color: white;
+}
+
+.divRB > .paraRB {
+    font-size: xx-large;
+}
+
+.divRB > p > p {
+    font-size: xx-small;
+}
