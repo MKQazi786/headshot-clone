@@ -2,6 +2,8 @@ import React from "react";
 import Header from "../components/header";
 import "../cssPages/perBlog.css";
 import MP from "../image/MedicalProfile.png"
+import Footer from "../components/footer"
+import {UpdatedBlogsProfile} from "../components/blogsProfile"
 
 const blogsPerProfile = () => {
     return (
@@ -143,6 +145,8 @@ const blogsPerProfile = () => {
                     
                 </div>
 
+                <UpdatedBlogsProfile />
+                <Footer />
             </main>
         </>
     )
