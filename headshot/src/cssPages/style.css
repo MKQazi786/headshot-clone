@@ -123,7 +123,7 @@ button {
     background: linear-gradient(98.24deg, #291a10 0%, #0c1b22 100%);
     color: white;
     margin: -1.5rem 0rem;
-    padding: 0.5rem;
+    padding: 3rem;
     display: flex;
     align-items: center;
     padding-bottom: 2rem;
@@ -136,6 +136,12 @@ button {
 .icon-1 {
     display: flex;
     gap: 1rem;
+    place-items: center;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.icon-1  h3 {
+    margin:0.5rem 0rem;
 }
 
 .hiwDiv {
@@ -148,12 +154,14 @@ button {
     min-width: 74rem;
     background: linear-gradient(98.24deg, #0D0D0D 0%, #0c1b22 100%);
     color: white;
+    padding-bottom: 3rem;
 }
 
 .hiwDiv>div>p,
 .reviewDiv>div>p{
     font-size: xx-large;
     margin: 0.5rem;
+    
 }
 
 .worksImage {
@@ -279,6 +287,7 @@ button:hover {
 .questionDiv a {
     color: white;
     text-decoration: none;
+    margin: 0rem;
 }
 
 
@@ -362,6 +371,7 @@ footer a {
 
 footer ul {
     list-style: none;
+    padding: 0 0.4rem;
 }
 
 

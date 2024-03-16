@@ -12,7 +12,7 @@ const Blog = () => {
         <div className="blogBody" >
             <Header />
             <main>
-                <p>Latest articles about headshot photography</p>
+                <p>Latest articles about <br /> headshot photography</p>
                 <b>Insights, ideas, and inspiration for headshot photography.</b>
                 <button>create yours now</button>
             </main>

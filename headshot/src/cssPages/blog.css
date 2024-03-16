@@ -10,6 +10,13 @@
 
 .blogBody main p {
     font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 0rem;
+}
+
+.blogBody main p > p{
+    font-weight: 100;
 }
 
 .blogBody main button{

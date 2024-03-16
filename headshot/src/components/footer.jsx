@@ -32,7 +32,7 @@ const Footer = () => {
                 <div>
                     <p>Legal</p>
                     <ul>
-                        <li>Terms & Condition</li>
+                        <li onClick={() => navigate("/termsAndCondition")} >Terms & Condition</li>
                         <li>Privacy policy</li>
                     </ul>
                 </div>

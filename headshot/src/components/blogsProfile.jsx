@@ -51,7 +51,7 @@ const BlogsProfile = () => {
             id: 6,
             imageSrc: BP6,
             title: "Embracing Modern Professional Headshots: Tips for a Contemporary Look"
-        },
+        }
     ]
 
 

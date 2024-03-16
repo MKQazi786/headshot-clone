@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { useRef } from "react";
 import "../cssPages/style.css";
 import Header from "../components/header";
