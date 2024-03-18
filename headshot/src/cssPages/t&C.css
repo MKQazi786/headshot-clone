@@ -1,0 +1,37 @@
+.tAndC-Main {
+    background: linear-gradient(98.24deg, #291a10 0%, #0c1b22 100%);
+    color: white;
+}
+
+.mainDivTAC {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 6rem;
+    text-align: center;     
+}
+
+.mainDivTAC p{
+    padding: 5rem;
+}
+
+.mainDivTAC b {
+    font-weight: 100;
+    margin: 0rem;
+}
+
+.mainDivTAC div{
+    text-align: left;
+}
+
+.tAndC-Main>main>p {
+    padding: 0rem;
+    margin-bottom: 0.5rem;
+    font-size:  xx-large;
+    font-weight: bolder;
+}
+
+.tAndC-Main h3 {
+    margin: 2rem 0rem 1rem 0rem;
+} 
