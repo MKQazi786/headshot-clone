@@ -378,3 +378,8 @@ footer > div  div > ul :hover{
     font-size: large;
 }
 
+footer a :hover {
+    color: #FC4A1A;
+    font-size:large ;
+}
+

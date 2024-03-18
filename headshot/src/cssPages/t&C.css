@@ -1,5 +1,5 @@
 .tAndC-Main {
-    background: linear-gradient(98.24deg, #291a10 0%, #0c1b22 100%);
+    background: linear-gradient(98.24deg, #291a10 10%, #0c1b22 90%);
     color: white;
 }
 
@@ -35,3 +35,12 @@
 .tAndC-Main h3 {
     margin: 2rem 0rem 1rem 0rem;
 } 
+
+ol {
+    padding: 0.5rem 0rem 0rem 1rem;
+    font-weight: 100;
+}
+
+.mainDivTAC ol li{
+    margin-bottom: 1rem;
+}
