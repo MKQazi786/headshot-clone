@@ -3,7 +3,6 @@ import Logo from "../image/Logo.png";
 import { useNavigate } from 'react-router-dom'
 import "../cssPages/style.css";
 
-
 const Header = () => {
 
     const navigate = useNavigate();
@@ -21,7 +20,7 @@ const Header = () => {
                 </nav>
                 <div className="headerBtn" >
                     <a href=""><span>LOG IN</span></a>
-                    <button>GET STARTED</button>
+                    <button onClick={() => navigate("/dashboard")} >GET STARTED</button>
                 </div>
             </nav>
         </header>

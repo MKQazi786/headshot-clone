@@ -1,0 +1,9 @@
+aside {
+    background: #0D0D0D;
+    display: flex;
+    flex-direction: column;
+}
+
+aside img{
+    width: 10rem;
+}
