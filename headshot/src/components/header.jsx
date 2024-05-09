@@ -7,7 +7,7 @@ const Header = () => {
 
     const navigate = useNavigate();
     return (
-        <header>
+        <header className="animate__animated animate__fadeInRight">
             <nav className="mainNavBar" id="mainNavBar" >
                 <img src={Logo} alt="This is logo" />
                 <nav className="navbar">

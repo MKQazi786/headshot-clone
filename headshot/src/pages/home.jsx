@@ -47,10 +47,10 @@ function Home() {
 
             <Header />
             <main>
-                <img src={banner} alt="this is banner" className="banner" />
+                <img src={banner} alt="this is banner" className="banner animate__animated animate__parallax" />
             </main>
 
-            <div className="iconDiv" >
+            <div className="iconDiv"  data-aos="fade-up" >
                 <p> As seen on </p>
 
                 <div className="text-icon">

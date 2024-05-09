@@ -5,6 +5,7 @@ import Blog from "./pages/blog.jsx"
 import BlogsPerProfile from "./pages/blogsPerProfile.jsx"
 import TermsAndCondition from "./pages/termsAndCondition.jsx"
 import Dashboard from "./pages/dashboard.jsx"
+import 'animate.css';
 
 const App = () => {
     return (
