@@ -11,7 +11,6 @@ import UBP2 from "../image/updatedbp2.png"
 import UBP3 from "../image/updatedbp3.png"
 import { useNavigate } from "react-router-dom";
 
-
 const BlogsProfile = () => {
 
 
